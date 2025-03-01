@@ -74,6 +74,7 @@ void printMatrix(const vector<vector<int>>& matrix)
 
 int main()
 {
+    //srand(time(NULL));
     vector<int> thread_counts = {3, 6, 12, 24, 48, 96}; // *0.5, *1, *2, *4,*8,*16
     vector<int> matrix_sizes = {100, 500, 1000, 2000, 5000, 10000};
 
